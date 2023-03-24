@@ -13,19 +13,24 @@ Initialization :
     
  - `minikube start`
 
-Déploiement
+Déployment and services
     
-    kubectl apply -f myservice-deployment.yml
-Service
-
- - `kubectl apply -f myservice-service.yml`
- ou
- - `kubectl apply -f myservice-loadbalancing-service.yml`
-
+    kubectl apply -f front-back-app.yml
 
 `minikube tunnel`
 
  Test it on : http://virtu-project.info/
  After editing your etc/hosts file
+
+## Description
+
+Our project is a sample portfolio website, with a pretty front-end, a simple back-end and a cluster gateway.
+
+The data returned by the back-end modify the `<title>` HTML element of the front-end. This corresponds to the title of the tab in the web browser.
+If the backend can't be accessed, the `<title>` HTML element is set to "...".
+
+The cluster gateway is set to "virtu-projet.info". It must be configured in the etc/host file of your OS.
+
+All of the project has been configured to work with Docker and Kubernetes : 2 services (front-end and back-end)
 
 

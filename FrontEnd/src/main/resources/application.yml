@@ -1,0 +1,2 @@
+
+backEndURL: http://back-end-service.default.svc.cluster.local:80/hello
