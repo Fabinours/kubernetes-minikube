@@ -33,4 +33,8 @@ The cluster gateway is set to "virtu-projet.info". It must be configured in the 
 
 All of the project has been configured to work with Docker and Kubernetes : 2 services (front-end and back-end)
 
+## Google Skill Boost Activities
+
+![Alt text](googleSkillBoostFabien.png?raw=true "Résultats Google Skill Boost - Fabien Courtois")
+
 
