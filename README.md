@@ -28,8 +28,12 @@ Déployment and services
 
 Our project is a sample portfolio website, with a pretty front-end, a simple back-end and a cluster gateway.
 
+![Alt text](websitePreview.png?raw=true "Website Preview")
+
 The data returned by the back-end modify the `<title>` HTML element of the front-end. This corresponds to the title of the tab in the web browser.
 If the backend can't be accessed, the `<title>` HTML element is set to "...".
+
+![Alt text](titleTab.png?raw=true "Website Preview")
 
 The cluster gateway is set to "virtu-projet.info". It must be configured in the etc/host file of your OS.
 

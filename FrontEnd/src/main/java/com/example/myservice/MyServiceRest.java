@@ -24,6 +24,7 @@ public class MyServiceRest {
 
     @GetMapping("/")
     public String sayHello() throws java.io.IOException {
+        //Get the title from the backend
         String s;
         try {
             RestTemplate restTemplate = new RestTemplate();
@@ -34,6 +35,7 @@ public class MyServiceRest {
             s = "...";
         }
 
+        //Read the index.html file and replace the title
         InputStream is = getClass().getClassLoader().getResourceAsStream("index.html");
         BufferedReader reader = new BufferedReader(new InputStreamReader(is));
         String line = null;
@@ -45,6 +47,7 @@ public class MyServiceRest {
             }
         }
 
+        //Return the index.html file
         return sb.toString();
     }
 }
