@@ -39,4 +39,6 @@ All of the project has been configured to work with Docker and Kubernetes : 2 se
 
 ![Alt text](googleSkillBoostFabien.png?raw=true "Résultats Google Skill Boost - Fabien Courtois")
 
+![Alt text](googleSkillBoostJulien.png?raw=true "Résultats Google Skill Boost - Julien Faidide")
+
 
